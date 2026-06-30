@@ -1,32 +1,32 @@
 {
-  "name": "jsxcb",
-  "version": "0.1.0",
-  "type": "module",
-  "license": "Apache-2.0",
-  "main": "./dist/jsxcb.cjs",
-  "module": "./dist/jsxcb.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/jsxcb.js",
-      "require": "./dist/jsxcb.cjs"
+    "name": "myde-xcb",
+    "version": "0.1.0",
+    "type": "module",
+    "license": "Apache-2.0",
+    "main": "./dist/jsxcb.cjs",
+    "module": "./dist/jsxcb.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/jsxcb.js",
+            "require": "./dist/jsxcb.cjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/node": "^26.0.1",
+        "typescript": "^5.7.0",
+        "vite": "^6.0.0",
+        "vite-plugin-dts": "^4.3.0",
+        "vitest": "^3.0.0"
     }
-  },
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "vite build",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "typecheck": "tsc --noEmit"
-  },
-  "devDependencies": {
-    "@types/node": "^26.0.1",
-    "typescript": "^5.7.0",
-    "vite": "^6.0.0",
-    "vite-plugin-dts": "^4.3.0",
-    "vitest": "^3.0.0"
-  }
 }
