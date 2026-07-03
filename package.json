@@ -13,6 +13,9 @@
             "require": "./dist/jsxcb.cjs"
         }
     },
+    "repository": {
+        "url": "https://github.com/xushengfeng/jsxcb"
+    },
     "files": [
         "dist"
     ],
